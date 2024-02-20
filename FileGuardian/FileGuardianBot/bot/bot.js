@@ -14,7 +14,7 @@
  */
 
 const file_name = __dirname + __filename
-const author = "@nabilanavab"
+const author = "@TNO-TheMemer"
 
 const config = require("../config");
 const logger = require("../logger");
@@ -110,12 +110,12 @@ global.botInfo = null;
     - Time                   : <code>${formattedTime}</code>
 
 👤 <b>Bot Management:</b>
-    - Contact Owner : @nabilanavab
-    - Powered By       : @ilovepdf_bot`,
+    - Contact Owner : @TNO_xD
+    - Powered By       : @LMAO_Links`,
                             buttons: client.buildReplyMarkup([[
-                                    Button.url(text="✨ SOURCE CODE ✨", url="github.com/nabilanavab/fileGuardianBot")
+                                    Button.url(text="✨ SOURCE CODE ✨", url="github.com/TNO-TheMemer/fileGuardianBot")
                                 ],[
-                                    Button.url(text="👤 OWNED BY 👤", url="https://telegram.dog/nabilanavab"),
+                                    Button.url(text="👤 OWNED BY 👤", url="https://telegram.dog/TNO_xD"),
                                     Button.url(text="🤖 START BOT 🤖", url=`https://telegram.dog/${botInfo.username}`)
                                 ]
                             ]),
